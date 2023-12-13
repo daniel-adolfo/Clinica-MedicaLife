@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.cb {
+  margin: 0;
+  z-index: 0;
+  
+}
+
+.slider-images {
+  margin: 0;
+  padding: 0;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  padding: 10px;
+  color: rgb(38, 236, 236);
+  font-size: 18px;
+  background-color: black;
+  border-radius: 5px 5px 0 0;
+}
+
+.slider-text {
+  width: 100%;
+}
+
